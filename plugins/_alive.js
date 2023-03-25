@@ -1,18 +1,18 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
-╭────═[Ikratos-MD-v1]═────⋆
+╭────═[💖Dinuwa Official²⁰²³💖]═────⋆
 │╭───────────────···
 ┴│☂︎    HEY ${conn.getName(m.sender)}
-⬡│☂︎ 🤪I\'m alive now..🥰
+⬡│☂︎ 🤪I\'m alive now..Dinuwa Official²⁰²³🥰
 ┬╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│            *Ikratos-MD-v1*
+┴│            *Dinuwa Official²⁰²³*
 ⬡│☂︎ *WHATSAPP BOT CODED BY👇🏽*
-⬡│☂︎           *Ahmad Ali🇵🇰*
-⬡│☂︎           *OWNER:👇🏽*
-⬡│☂︎ *wa.me/923470027813*
+⬡│☂︎           *Dinuwa Official²⁰²³*
+⬡│☂︎           *OWNER:Dinuwa Official²⁰²³*
+⬡│☂︎ *wa.me/94740804536*
 ⬡│☂︎ *Don\'t call owner or you will be*
 ⬡│☂︎ *Ignored or blocked without*
 ⬡│☂︎           *warning 🥴😹*
@@ -24,10 +24,10 @@ let handler = async (m, { conn }) => {
 ⬡│☂︎ .menu *All menu of bot*
 ⬡│☂︎ .sticker *Image to sticker*
 ⬡│☂︎ .play *Youtube video/audio*
-┬│☂︎ .gimage *Google image downloader*
+┬│☂︎ ▁ ▂ ▃ ▅  💖Dinuwa Official²⁰²³💖 ▅ ▃ ▂ ▁
 │╰────────────────···
 ╰──────────═┅═───────
-*Thanks For Using Ikratos-MD-v1 ✍🏽🌿🥰*
+*Thanks For Using 💖Dinuwa Official²⁰²³💖*
 `.trim()
   m.reply(caption)
 }
