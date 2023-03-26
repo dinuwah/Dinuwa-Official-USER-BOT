@@ -12,38 +12,38 @@ const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromCon
 
 const defaultMenu = {
   before: `
-╭─────═[ INFO USER ]═─────⋆
+╭─────═[ Dinuwa Official²⁰²³INFO USER ]═─────⋆
 │╭───────────────···
-┴│☂︎ *Name:* %name
-⬡│☂︎ *Tag:* %tag
+┴│💖 *Name:* %name
+⬡│💖 *Tag:* %tag
 ┬╰────────────────···
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│☂︎ *Date:* %week %weton
-⬡│☂︎ *Date:* %date
-⬡│☂︎ *Date Islamic:* %dateIslamic
-┬│☂︎ *Time:* %time
+⬡│💖 *Date:* %week %weton
+⬡│💖 *Date:* %date
+⬡│💖 *Date Islamic:* %dateIslamic
+┬│💖 *Time:* %time
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│☂︎ *Name Bot:* %me
-⬡│☂︎ *Mode:* %mode
-⬡│☂︎ *Prefix:* [ *%_p* ]
-⬡│☂︎ *Uptime:* %muptime
-┬│☂︎ *Database:* %rtotalreg dari %totalreg
+┴│💖 *Name Bot:* %me
+⬡│💖 *Mode:* %mode
+⬡│💖 *Prefix:* [ *%_p* ]
+⬡│💖 *Uptime:* %muptime
+┬│💖 *Database:* %rtotalreg dari %totalreg
 │╰────────────────···
 ╰──────────═┅═──────────
 
-⃝▣──「 *INFO CMD* 」───⬣
-│ *Ⓟ* = Premium
-│ *Ⓛ* = Limit
+⃝▣──「 *INFO BOT* 」───⬣
+│ 💖*Owner* = Dinuwa Official²⁰²³
+│ 💖*Contact* = 94740804536
 ▣────────────⬣
 %readmore
 `.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: '│○ %cmd %isPremium %islimit',
-  footer: '▣───────────⬣\n',
+  footer: '▁ ▂ ▃ ▅ ▆ ▇ █\n',
   after: `%c4 %me`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
@@ -290,29 +290,29 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
+let tek = `▁ ▂ ▃ ▅ Dinuwa Official²⁰²³ ▅ ▃ ▂ ▁
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⬡ Active for ${mpt}
-│⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* User
-│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Banned chat
-│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* User Banned
+│⚠️️ Active for ${mpt}
+│⚠️️ Prefix : [ ${_p} ]
+│⚠️️ *${Object.keys(global.db.data.users).length}* User
+│⚠️️ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Banned chat
+│🚭 *💞ලින්ක් එක share පාරක් දාලා සප් එකක් දෙමු නේත..💞
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* Ahmad Ali
-┴ ▸ *ᴏᴡɴᴇʀ :* xIKRATOSx
+│ ▸ *ᴀᴜᴛʜᴏʀ :* ▁ ▂ ▃ ▅ ▆ ▇ █ Dinuwa Official²⁰²³ █ ▇ ▆ ▅ ▃ ▂ ▁
+┴ ▸ *Github :* https://github.com/dinuwah
 ✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ Give me a break, SIS ^ω^
+┬ 💖Whatsapp Group💖 :
+│ https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Click Here ⎙`, 
+  buttonText: `🚭Click Here Menu🚭`, 
   sections
 }
   if (teks == '404') {
@@ -466,14 +466,14 @@ const listMessage = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: '[❗] Loading Menu ' + teks + '...\n Be patient Sis ^ω^', 
+    message: '[❗] Loading Menu ' + teks + '...\n Be patient besikayo 😂', 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(flaaa + 'Loading')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
-    conn.reply(m.chat, '*Wait a minute Sis. . .*', ftrol) 
+    conn.reply(m.chat, '*Ohoma poddak idapm besikayo 😂*', ftrol) 
     
     //------------------< MENU >----------------
     
@@ -531,7 +531,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
+                        url: 'https://github.com/dinuwah'
                     }
                 },
                 {
@@ -585,7 +585,7 @@ const listMessage = {
       showAdAttribution: true
       }}}}}}, {})*/
       
-     //---Made By @ImYanXiao
+     //---Made By @Dinuwa Official²⁰²³
     // Mampus Di Enc 🧢
     // Gausah Dihapus, Thx
     //------------------ BUTTONDOC WITH EXTERNALADS NEW
@@ -641,7 +641,7 @@ function ucapan() {
   const time = moment.tz('Asia/Karachi').format('HH')
   let res = "Why haven\'t you slept yet?? 🥱"
   if (time >= 4) {
-    res = "Morning 🌄"
+    res = "GM bza 😂"
   }
   if (time >= 10) {
     res = "Day ☀️"
@@ -650,7 +650,7 @@ function ucapan() {
     res = "Afternoon 🌇"
   }
   if (time >= 18) {
-    res = "night 🌙"
+    res = "GN bza 🌙"
   }
   return res
 }
