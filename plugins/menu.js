@@ -28,7 +28,7 @@ const defaultMenu = {
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
 ┴│💖 *Name Bot:* Dinuwa Official²⁰²³
-⬡│💖 *Mode:* VPS
+⬡│💖 *Mode:* Public VPS
 ⬡│💖 *Prefix:* [ *%_p* ]
 ⬡│💖 *Uptime:* %muptime
 ┬│💖 *Database:* %rtotalreg dari %totalreg
