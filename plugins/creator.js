@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
   })
 	]
 	await delay(100)
-  return conn.sendMessage(m.chat, { text: `Hi cuddh mk itim @${m.sender.split('@')[0]}, මූ තමා මගේ owner, Okay? 😃\nඕන වුනොත් contact කරපන\nDon\t call him or ස්පෑම් 😂`, mentions: [m.sender] }, { quoted: conn.p[id][0]
+  return conn.sendMessage(m.chat, { text: `Hi cuddh mk itim @${m.sender.split('@')[0]}, මූ තමා මගේ owner, Okay? 😃\nඕන වුනොත් contact කරපන් වට්සැප්`, mentions: [m.sender] }, { quoted: conn.p[id][0]
   })
   await delay(100)
   return delete conn.p[id]
