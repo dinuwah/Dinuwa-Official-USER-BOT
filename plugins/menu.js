@@ -22,13 +22,13 @@ const defaultMenu = {
 ┴│    *${ucapan()} %name!*
 ⬡│💖 *Date:* %week %weton
 ⬡│💖 *Date:* %date
-⬡│💖 *Date Islamic:* %dateIslamic
-┬│💖 *Time:* %time
+⬡│ The Whatsapp User Bot 
+┬│ Deployed By Dinuwa Official²⁰²³
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│💖 *Name Bot:* %me
-⬡│💖 *Mode:* %mode
+┴│💖 *Name Bot:* Dinuwa Official²⁰²³
+⬡│💖 *Mode:* VPS
 ⬡│💖 *Prefix:* [ *%_p* ]
 ⬡│💖 *Uptime:* %muptime
 ┬│💖 *Database:* %rtotalreg dari %totalreg
@@ -249,21 +249,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    {
 	title: `${htki} ᴍᴀɪɴ ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "display bot response speed"},
-	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "display bot running time"}, 
-	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "display info of bot owner"},
+	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "display Dinuwa Official²⁰²³ bot response speed"},
+	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "display Dinuwa Official²⁰²³ bot running time"}, 
+	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "display info of Dinuwa Official²⁰²³ bot owner"},
 	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
 	rows: [
-	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: 'support the owner to be more enthusiastic'},
+	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: 'support the owner of Dinuwa Official²⁰²³ Bot'},
 	]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Showing all BOT commands"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
+	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Showing all Dinuwa Official²⁰²³ BOT commands"},
+	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Dinuwa Official²⁰²³ Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Let's increase your rank!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "The game is fun (๑˃̵　ᴗ　˂̵)"},
 	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Safe features for families"},
@@ -274,16 +274,16 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "For premium users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Talk to strangers"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Let\'s repent sister"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Search for something on BOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download something from the BOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Create Stickers in BOT"},
+	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Search for something on Dinuwa Official²⁰²³ BOT"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download something from the Dinuwa Official²⁰²³ BOT"},
+	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Create Stickers in Dinuwa Official²⁰²³ BOT"},
 	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Why are you lazy to write?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Change Audio with Filters"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Save something on BOT"},
 	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Maybe this tool can help?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
+	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info Dinuwa Official²⁰²³ BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Uncategorized features!"},
 	]
@@ -466,7 +466,7 @@ const listMessage = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: '[❗] Loading Menu ' + teks + '...\n Be patient besikayo 😂', 
+    message: '[❗] Loading Menu ' + teks + '...\n Be patient Sis ^ω^', 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(flaaa + 'Loading')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
