@@ -59,23 +59,23 @@ let handler = async (m, { conn, isRowner}) => {
 ${Math.round(neww - old)} ms
 ${speed} ms
 
-*ʀ ᴜ ɴ ᴛ ɪ ᴍ ᴇ* 
+*💖ʀ ᴜ ɴ ᴛ ɪ ᴍ ᴇ💖* 
 ${muptime}
 ${readMore}
 *ᴄ ʜ ᴀ ᴛ s*
-• *${groupsIn.length}* Group Chats
-• *${groupsIn.length}* Groups Joined
-• *${groupsIn.length - groupsIn.length}* Groups Left
-• *${chats.length - groupsIn.length}* Personal Chats
-• *${chats.length}* Total Chats
+• 💖*${groupsIn.length}* Group Chats
+• 💖*${groupsIn.length}* Groups Joined
+• 💖*${groupsIn.length - groupsIn.length}* Groups Left
+• 💖*${chats.length - groupsIn.length}* Personal Chats
+• 💖*${chats.length}* Total Chats
 
 
-*s ᴇ ʀ ᴠ ᴇ ʀ*
-*🛑 ʀᴀᴍ:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 ғʀᴇᴇRAM:* ${format(freemem())}
-*📑 sᴇssɪᴏɴ sɪᴢᴇ :* ${format(session.size)}
-*💻 ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*🧿 sᴇʀᴠᴇʀ :* ${os.hostname()}
+*💖s ᴇ ʀ ᴠ ᴇ ʀ💖*
+*💖 ʀᴀᴍ:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*💖 ғʀᴇᴇRAM:* ${format(freemem())}
+*💖 sᴇssɪᴏɴ sɪᴢᴇ :* ${format(session.size)}
+*💖 ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
+*💖 sᴇʀᴠᴇʀ :* ${os.hostname()}
 ${readMore}
 NodeJS Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
