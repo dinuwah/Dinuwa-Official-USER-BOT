@@ -43,7 +43,7 @@ const defaultMenu = {
 `.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: '│○ %cmd %isPremium %islimit',
-  footer: '▁ ▂ ▃ ▅ ▆ ▇ █\n',
+  footer: '▣───────────⬣\n',
   after: `%c4 %me`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
@@ -295,24 +295,33 @@ let tek = `▁ ▂ ▃ ▅ Dinuwa Official²⁰²³ ▅ ▃ ▂ ▁
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 │⚠️️ Active for ${mpt}
+
 │⚠️️ Prefix : [ ${_p} ]
+
 │⚠️️ *${Object.keys(global.db.data.users).length}* User
+
 │⚠️️ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Banned chat
+
 │🚭 *💞ලින්ක් එක share පාරක් දාලා සප් එකක් දෙමු නේත..💞
+
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ▁ ▂ ▃ ▅ ▆ ▇ █ Dinuwa Official²⁰²³ █ ▇ ▆ ▅ ▃ ▂ ▁
+│ ▸ *CREATOR:* ▁ ▂ ▃ ▅ ▆ ▇ █ Dinuwa Official²⁰²³ █ ▇ ▆ ▅ ▃ ▂ ▁
+
 ┴ ▸ *Github :* https://github.com/dinuwah
 ✧
-┬ 💖Whatsapp Group💖 :
+┬ 💖Whatsapp Public Group💖 :
 │ https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
+
+💖Whatsapp Support Group💖 ;
+  https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `🚭Click Here Menu🚭`, 
+  buttonText: `🚭 Click Here Menu 🚭`, 
   sections
 }
   if (teks == '404') {
