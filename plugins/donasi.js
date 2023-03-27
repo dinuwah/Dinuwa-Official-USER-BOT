@@ -5,13 +5,13 @@ let teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 ┃
 ┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
 ┃ 
-┃📟 Cᴏɴᴛᴀᴄᴛ Mᴇ ᴏɴ Wʜᴀᴛsᴀᴘᴘ 📟
+┃💖 Cᴏɴᴛᴀᴄᴛ Mᴇ ᴏɴ Wʜᴀᴛsᴀᴘᴘ 💖
 ┃ 
 ┃ *http://wa.me/94740804536* 
 ┃ 
-┃📟  Whatsapp Group 📟 
+┃💖  Whatsapp Group 💖 
 ┃
-┃'https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN'   
+┃https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN   
 ┃
 ┃ *ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Dinuwa Official²⁰²³*
 ┗ ┅ ━━━━━━━━━ ┅ ━➔
@@ -20,9 +20,9 @@ let teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 let you = flaaa.getRandom()
 
 const buttons = [
-  {buttonId: '.? all', buttonText: {displayText: 'ʙᴀᴄᴋ ᴛᴏ ᴀʟʟ ᴍᴇɴᴜ'}, type: 1},
-  {buttonId: '.ping', buttonText: {displayText: 'ᴘɪɴɢ'}, type: 1},
-  {buttonId: '.creator', buttonText: {displayText: 'ᴄʀᴇᴀᴛᴏʀ'}, type: 1}
+  {buttonId: '.? all', buttonText: {displayText: '💖 ᴍᴇɴᴜ 💖'}, type: 1},
+  {buttonId: '.ping', buttonText: {displayText: '💖 ᴘɪɴɢ 💖'}, type: 1},
+  {buttonId: '.creator', buttonText: {displayText: '💖 ᴄʀᴇᴀᴛᴏʀ 💖'}, type: 1}
 ]
 
 const templateMessage = {
