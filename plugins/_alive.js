@@ -13,18 +13,32 @@ let handler = async (m, { conn }) => {
 ⬡│☂︎           *Dinuwa Official²⁰²³*
 ⬡│☂︎           *OWNER:Dinuwa Official²⁰²³*
 ⬡│☂︎ *wa.me/94740804536*
-⬡│☂︎ *Don\'t call owner or you will be*
-⬡│☂︎ *Ignored or blocked without*
-⬡│☂︎           *warning 🥴😹*
-┬│☂︎ *Hehehehe...🤪😸😸*
-│╰────────────────···
-┠─────═[ GUIDE ]═─────⋆
-│╭────────────────···
-┴│☂︎ _*👇🏽Litle Guide to use bot👇🏽*_
-⬡│☂︎ .menu *All menu of bot*
-⬡│☂︎ .sticker *Image to sticker*
-⬡│☂︎ .play *Youtube video/audio*
-┬│☂︎ ▁ ▂ ▃ ▅  💖Dinuwa Official²⁰²³💖 ▅ ▃ ▂ ▁
+┏ ┅ ━━━━━━━━━ ┅ ➔
+
+┇ 《 Dinuwa MD BOT 》
+
+┣ ┅ ━━━━━━━━━ ┅ ➔
+┃  
+┃ ❤️ *Uptime:* %muptime
+┃ 
+┃ ❤️ Install Bot  : https://github.com/dinuwah
+┃ 
+┃ ❤️ Join PUBLIC group : https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
+
+
+  💖 JOIN SUPPORT GROUP : https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+┃ 
+┃ ❤️ RamUsage  : 20.23 GB / 62.14 GB
+┃ 
+┃ ❤️ Version  : Dinuwa MD BOT
+┃
+┃ ❤️ Time : 13:09:07
+┃ 
+┃ ❤️ Owner : Dinuwa Official 
+┃
+┃ ❤️ Powered By  +94740804536
+┗ ┅ ━━━━━━━━━ ┅ ➔
+❤️Dinuwa MD BOT ❤️
 │╰────────────────···
 ╰──────────═┅═───────
 *Thanks For Using 💖Dinuwa Official²⁰²³💖*
