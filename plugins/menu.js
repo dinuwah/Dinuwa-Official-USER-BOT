@@ -247,74 +247,75 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    
    const sections = [
    {
-	title: `${htki} ᴍᴀɪɴ ${htka}`,
+	title: `${htki} 🍡 ⋆ 🍉  🎀  𝑀𝒜𝐼𝒩 𝑀𝐸𝒩𝒰  🎀  🍉 ⋆ 🍡 ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "display Dinuwa Official²⁰²³ bot response speed"},
-	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "display Dinuwa Official²⁰²³ bot running time"}, 
-	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "display info of Dinuwa Official²⁰²³ bot owner"},
-	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
+	    {title: ` ${pmenus} ▀▄▀▄▀▄ 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃 ▄▀▄▀▄▀`, rowId: ".ping", description: "display Dinuwa Official²⁰²³ bot response speed"},
+	    {title: ` ${pmenus} 🍎  🎀  𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃  🎀  🍎`, rowId: ".runtime", description: "display Dinuwa Official²⁰²³ bot running time"}, 
+	    {title: ` ${pmenus} 😡✎  𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃  ☺♥`, rowId: ".creator", description: "display info of Dinuwa Official²⁰²³ bot owner"},
+	    {title: ` ${pmenus} ♗🐠  𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃  💲☆`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
-	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
+	title: `${htki} ⋆  🎀  𝒟𝒾𝓃𝓊𝓌𝒶 💗𝒻𝒻𝒾𝒸𝒾𝒶𝓁²⁰²³  🎀  ⋆ ${htka}`,
 	rows: [
-	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: 'support the owner of Dinuwa Official²⁰²³ Bot'},
+	    {title: ` ${pmenus} ミ★ 𝙳𝙾𝙽𝙰𝚃𝙴 ★彡`, rowId: ".donasi", description: 'support the owner of Dinuwa Official²⁰²³ Bot'},
 	]
 	},{
-	title: `${htki} ᴍᴇɴᴜ ${htka}`,
+	title: `${htki} ▌│█║▌║▌║ ᴍᴇɴᴜ ║▌║▌║█│▌ ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Showing all Dinuwa Official²⁰²³ BOT commands"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Dinuwa Official²⁰²³ Rpg!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Let's increase your rank!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "The game is fun (๑˃̵　ᴗ　˂̵)"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Safe features for families"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Ask the club leader"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspiration"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, sagnean policy"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "For premium users"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Talk to strangers"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Let\'s repent sister"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Search for something on Dinuwa Official²⁰²³ BOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download something from the Dinuwa Official²⁰²³ BOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Create Stickers in Dinuwa Official²⁰²³ BOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Why are you lazy to write?"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Change Audio with Filters"},
-	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Save something on BOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Maybe this tool can help?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info Dinuwa Official²⁰²³ BOT"},
-	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Uncategorized features!"},
+	    {title: ` ${pmenus} 𝓐𝓵𝓵 𝓜𝓔𝓝𝓤`, rowId: ".? all", description: "Showing all Dinuwa Official²⁰²³ BOT commands"},
+	    {title: ` ${pmenus} 𝓡𝓹𝓰 𝓜𝓔𝓝𝓤`, rowId: ".? rpg", description: "Game Epic Dinuwa Official²⁰²³ Rpg!"},
+	{title: ` ${pmenus} 𝓔𝔁𝓹 𝓜𝓔𝓝𝓤`, rowId: ".? xp", description: "Let's increase your rank!"},
+	{title: ` ${pmenus} 𝓖𝓪𝓶𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? game", description: "The game is fun (๑˃̵　ᴗ　˂̵)"},
+	{title: ` ${pmenus} 𝓕𝓾𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? fun", description: "Safe features for families"},
+	{title: ` ${pmenus} 𝓚𝓮𝓻𝓪𝓷𝓰 𝓜𝓔𝓝𝓤`, rowId: ".? kerangajaib", description: "Ask the club leader"},
+	{title: ` ${pmenus} 𝓠𝓾𝓸𝓽𝓮𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? quotes", description: "Random Inspiration"},
+	{title: ` ${pmenus} 𝓐𝓷𝓲𝓶𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? anime", description: "Wibu wibu🐦"},
+	{title: ` ${pmenus} 𝓝𝓼𝓯𝔀 𝓜𝓔𝓝𝓤`, rowId: ".? nsfw", description: "Tch, sagnean policy"},
+	{title: ` ${pmenus} 𝓟𝓻𝓮𝓶𝓲𝓾𝓶 𝓜𝓔𝓝𝓤`, rowId: ".? premium", description: "For premium users"},
+	{title: ` ${pmenus} 𝓐𝓷𝓸𝓷𝔂𝓶𝓸𝓾𝓼 𝓒𝓱𝓪𝓽𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? anonymous", description: "Talk to strangers"},
+	{title: ` ${pmenus} 𝓐𝓵-𝓠𝓾𝓻𝓪𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? quran", description: "Let\'s repent sister"},
+	{title: ` ${pmenus} 𝓘𝓷𝓽𝓮𝓻𝓷𝓮𝓽 𝓜𝓔𝓝𝓤`, rowId: ".? internet", description: "Search for something on Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓓𝓸𝔀𝓷𝓵𝓸𝓪𝓭𝓮𝓻𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? downloader", description: "Download something from the Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓢𝓽𝓲𝓴𝓮𝓻𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? stiker", description: "Create Stickers in Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓝𝓾𝓵𝓲𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? nulis", description: "Why are you lazy to write?"},
+	{title: ` ${pmenus} 𝓐𝓾𝓭𝓲𝓸 𝓜𝓔𝓝𝓤`, rowId: ".? audio", description: "Change Audio with Filters"},
+	{title: ` ${pmenus} 𝓖𝓻𝓸𝓾𝓹 𝓜𝓔𝓝𝓤`, rowId: ".? group", description: "Only Groups"},
+	{title: ` ${pmenus} 𝓐𝓭𝓶𝓲𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? admin", description: "Only Admin Group"},
+	{title: ` ${pmenus} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? database", description: "Save something on BOT"},
+	{title: ` ${pmenus} 𝓣𝓸𝓸𝓵𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? tools", description: "Maybe this tool can help?"},
+	{title: ` ${pmenus} 𝓘𝓷𝓯𝓸 𝓜𝓔𝓝𝓤 𝓓𝓲𝓷𝓾𝔀𝓪 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵²⁰²³`, rowId: ".? info", description: "Info info Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓞𝔀𝓷𝓮𝓻 𝓜𝓔𝓝𝓤`, rowId: ".? owner", description: "Owner Only!"},
+	{title: ` ${pmenus} ஜ۩۞۩ஜ හී හී නිකන් දැම්මේ 😂 ஜ۩۞۩ஜ`, rowId: ".? nocategory", description: "Uncategorized features!"},
 	]
   },
 ]
 
 let tek = `▁ ▂ ▃ ▅ Dinuwa Official²⁰²³ ▅ ▃ ▂ ▁
+
+
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⚠️️ Active for ${mpt}
+│⚠️️ |!¤*'~``~'*¤!| 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 |!¤*'~``~'*¤!| ${mpt}
 
 │⚠️️ Prefix : [ ${_p} ]
 
-│⚠️️ *${Object.keys(global.db.data.users).length}* User
+│ ❤️ Join PUBLIC group : https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
 
-│⚠️️ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Banned chat
+│ 💖 JOIN SUPPORT GROUP : https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
 
-│🚭 *💞ලින්ක් එක share පාරක් දාලා සප් එකක් දෙමු නේත..💞
-
+│🚭 *💞When deploy the bot වට්සැප් එකෙන් contact කරපන්..  wa.me/94740804536 💞
+  
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *CREATOR:* ▁ ▂ ▃ ▅ ▆ ▇ █ Dinuwa Official²⁰²³ █ ▇ ▆ ▅ ▃ ▂ ▁
+│ ▸ *CREATOR:* ▁ ▂ ▃ ▅ ▆  Dinuwa Official²⁰²³ ▆ ▅ ▃ ▂ ▁
+
 
 ┴ ▸ *Github :* https://github.com/dinuwah
-✧
-┬ 💖Whatsapp Public Group💖 :
-│ https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
 
-💖Whatsapp Support Group💖 ;
-  https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+✧
+┬ SPECIAL THANKS TO ; Dinethra Oshada
+                     💖Dinuwa Official²⁰²³💖
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
