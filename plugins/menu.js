@@ -12,26 +12,27 @@ const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromCon
 
 const defaultMenu = {
   before: `
-╭─────═[ Dinuwa Official²⁰²³INFO USER ]═─────⋆
+╭🇱🇰─🇱🇰 🇱🇰 Dinuwa Official²⁰²³ 🇱🇰 🇱🇰─🇱🇰──⋆
+   INFO USER
 │╭───────────────···
-┴│💖 *Name:* %name
-⬡│💖 *Tag:* %tag
+🇱🇰│ *Name:* %name
+🇱🇰│ *Tag:* %tag
 ┬╰────────────────···
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│💖 *Date:* %week %weton
-⬡│💖 *Date:* %date
-⬡│ The Whatsapp User Bot 
-┬│ Deployed By Dinuwa Official²⁰²³
+🇱🇰│ *Date:* %week %weton
+🇱🇰│ *Date:* %date
+🇱🇰│ The Whatsapp User Bot 
+┬│  Deployed By Dinuwa Official²⁰²³
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│💖 *Name Bot:* Dinuwa Official²⁰²³
-⬡│💖 *Mode:* Public VPS
-⬡│💖 *Prefix:* [ *%_p* ]
-⬡│💖 *Uptime:* %muptime
-┬│💖 *Database:* %rtotalreg dari %totalreg
+┴│  *Name Bot:* Dinuwa Official²⁰²³
+🇱🇰│ *Mode:* Public VPS
+🇱🇰│ *Prefix:* [ *%_p* ]
+🇱🇰│ *Uptime:* %muptime
+┬│  *Database:* %rtotalreg dari %totalreg
 │╰────────────────···
 ╰──────────═┅═──────────
 
