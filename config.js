@@ -104,17 +104,17 @@ global.botdate = `▁ ▂ ▃ ▅ ▆ ▇ █💖█ ▇ ▆ ▅ ▃ ▂ ▁ Dat
 global.bottime = `Time : ${wktuwib}`
 global.titlebot = '▁ ▂ ▃ ▅ ▆ ▇ █Dinuwa Official²⁰²³█ ▇ ▆ ▅ ▃ ▂ ▁'
 global.author = global.wm
-global.logo = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.logo = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/cc8jfkX/01.jpg' //Main Thumbnail
-global.thumb2 = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.thumbbc = 'https://i.ibb.co/cc8jfkX/01.jpg' //For broadcast
+global.thumb = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' //Main Thumbnail
+global.thumb2 = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
+global.thumbbc = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumblvlup = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.hwaifu = ['https://i.ibb.co/cc8jfkX/01.jpg']
+global.thumblvlup = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
+global.hwaifu = ['https://i.ibb.co/T1DqdYz/thumbnail.jpg']
 
 /*============== FlamingText ===========*/
 global.flaaa = [
@@ -140,7 +140,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.thumbdoc = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '5644' // default 10TB
