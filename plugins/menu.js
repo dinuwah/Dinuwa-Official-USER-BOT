@@ -298,26 +298,31 @@ let tek = `▁ ▂ ▃ ▅ Dinuwa Official²⁰²³ ▅ ▃ ▂ ▁
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⚠️️ Active for ${mpt}
+│🍿 Active for ${mpt}
 
-│⚠️️ Prefix : [ ${_p} ]
+│🍿 Prefix : [ ${_p} ]
 
-│ ❤️ Join PUBLIC group : https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
+│ 🍿 Join PUBLIC group : https://chat.whatsapp.com/IKbvhlnSXFWDnW7ZxSWwLN
 
-│ 💖 JOIN SUPPORT GROUP : https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+│ 🍿 JOIN SUPPORT GROUP : https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
 
-│🚭 *💞When deploy the bot වට්සැප් එකෙන් contact කරපන්..  wa.me/94740804536 💞
+│🍿 *💞When deploy the bot create an issue, වට්සැප් එකෙන් contact කරපන්..  wa.me/94740804536 💞
   
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *CREATOR:* ▁ ▂ ▃ ▅ ▆  Dinuwa Official²⁰²³ ▆ ▅ ▃ ▂ ▁
+│ 💧 CREATOR: ▁ ▂ ▃ ▅ ▆  Dinuwa Official²⁰²³ ▆ ▅ ▃ ▂ ▁
 
 
-┴ ▸ *Github :* https://github.com/dinuwah
+┴ 🔥 Github : https://github.com/dinuwah
 
-✧
-┬ SPECIAL THANKS TO ; Dinethra Oshada
-                     💖Dinuwa Official²⁰²³💖
+❄️ SPECIAL THANKS
+    TO : 
+                                 
+
+💥Dinuwa Official²⁰²³
+💥Dinethra Oshada
+💥Ikratox Bro
+💥Muzamil Xeon
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
