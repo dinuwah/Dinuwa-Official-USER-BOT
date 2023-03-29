@@ -12,31 +12,34 @@ const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromCon
 
 const defaultMenu = {
   before: `
-╭─────═[ Dinuwa Official²⁰²³INFO USER ]═─────⋆
+Dinuwa Official²⁰²³    
+
+🍿INFO USER🍿 ───⋆
 │╭───────────────···
-┴│💖 *Name:* %name
-⬡│💖 *Tag:* %tag
+🍥│ Name: %name
+🍥│ Tag: %tag
 ┬╰────────────────···
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
-┴│    *${ucapan()} %name!*
-⬡│💖 *Date:* %week %weton
-⬡│💖 *Date:* %date
-⬡│ The Whatsapp User Bot 
-┬│ Deployed By Dinuwa Official²⁰²³
+┴│    ${ucapan()} %name!
+❄️│ Date: %week %weton
+❄️│ Date: %date
+❄️│ The Whatsapp User Bot 
+┬│  Deployed By Dinuwa Official²⁰²³
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│💖 *Name Bot:* Dinuwa Official²⁰²³
-⬡│💖 *Mode:* Public VPS
-⬡│💖 *Prefix:* [ *%_p* ]
-⬡│💖 *Uptime:* %muptime
-┬│💖 *Database:* %rtotalreg dari %totalreg
+┴│  Name Bot: Dinuwa Official²⁰²³
+🔥│ Mode: Public VPS
+🔥│ Prefix: [ %_p ]
+🔥│ Uptime: %muptime
+┬│  Database: %rtotalreg dari %totalreg
 │╰────────────────···
 ╰──────────═┅═──────────
-⃝▣──「 *INFO BOT* 」───⬣
-│ 💖*Owner* = Dinuwa Official²⁰²³
-│ 💖*Contact* = 94740804536
+
+⃝▣──「 INFO BOT 」───⬣
+│ 💖Owner = Dinuwa Official²⁰²³
+│ 💖Contact = 94740804536
 ▣────────────⬣
 %readmore
 `.trimStart(),
@@ -246,45 +249,45 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    
    const sections = [
    {
-	title: `${htki} ᴍᴀɪɴ ${htka}`,
+	title: `${htki} ᴍᴀɪɴ 𝓜𝓔𝓝𝓤 ${htka}`,
 	rows: [
-	    {title: ` ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "display Dinuwa Official²⁰²³ bot response speed"},
-	    {title: ` ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "display Dinuwa Official²⁰²³ bot running time"}, 
-	    {title: ` ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "display info of Dinuwa Official²⁰²³ bot owner"},
-	    {title: ` ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
+	    {title: ` ${pmenus} 🇱🇰𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "display Dinuwa Official²⁰²³ bot response speed"},
+	    {title: ` ${pmenus} 🇱🇰𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "display Dinuwa Official²⁰²³ bot running time"}, 
+	    {title: ` ${pmenus} 🇱🇰𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "display info of Dinuwa Official²⁰²³ bot owner"},
+	    {title: ` ${pmenus} 🇱🇰𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
-	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
+	title: `${htki} 𝓼ᴜᴘᴘᴏʀᴛ 𝓜𝓔𝓝𝓤 ${htka}`,
 	rows: [
-	    {title: ` ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: 'support the owner of Dinuwa Official²⁰²³ Bot'},
+	    {title: ` ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴 𝓜𝓔𝓝𝓤`, rowId: ".donasi", description: 'support the owner of Dinuwa Official²⁰²³ Bot'},
 	]
 	},{
-	title: `${htki} ᴍᴇɴᴜ ${htka}`,
+	title: `${htki} 𝓜𝓔𝓝𝓤 ${htka}`,
 	rows: [
-	    {title: ` ${pmenus} All`, rowId: ".? all", description: "Showing all Dinuwa Official²⁰²³ BOT commands"},
-	    {title: ` ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Dinuwa Official²⁰²³ Rpg!"},
-	{title: ` ${pmenus} Exp`, rowId: ".? xp", description: "Let's increase your rank!"},
-	{title: ` ${pmenus} Game`, rowId: ".? game", description: "The game is fun (๑˃̵　ᴗ　˂̵)"},
-	{title: ` ${pmenus} Fun`, rowId: ".? fun", description: "Safe features for families"},
-	{title: ` ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Ask the club leader"},
-	{title: ` ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspiration"},
-	{title: ` ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
-	{title: ` ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, sagnean policy"},
-	{title: ` ${pmenus} Premium`, rowId: ".? premium", description: "For premium users"},
-	{title: ` ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Talk to strangers"},
-	{title: ` ${pmenus} Al-Quran`, rowId: ".? quran", description: "Let\'s repent sister"},
-	{title: ` ${pmenus} Internet`, rowId: ".? internet", description: "Search for something on Dinuwa Official²⁰²³ BOT"},
-	{title: ` ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download something from the Dinuwa Official²⁰²³ BOT"},
-	{title: ` ${pmenus} Stikers`, rowId: ".? stiker", description: "Create Stickers in Dinuwa Official²⁰²³ BOT"},
-	{title: ` ${pmenus} Nulis`, rowId: ".? nulis", description: "Why are you lazy to write?"},
-	{title: ` ${pmenus} Audio`, rowId: ".? audio", description: "Change Audio with Filters"},
-	{title: ` ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: ` ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: ` ${pmenus} Database`, rowId: ".? database", description: "Save something on BOT"},
-	{title: ` ${pmenus} Tools`, rowId: ".? tools", description: "Maybe this tool can help?"},
-	{title: ` ${pmenus} Info`, rowId: ".? info", description: "Info info Dinuwa Official²⁰²³ BOT"},
-	{title: ` ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: ` ${pmenus} No Category`, rowId: ".? nocategory", description: "Uncategorized features!"},
+	    {title: ` ${pmenus} 𝓐𝓵𝓵 𝓜𝓔𝓝𝓤`, rowId: ".? all", description: "Showing all Dinuwa Official²⁰²³ BOT commands"},
+	    {title: ` ${pmenus} 𝓡𝓹𝓰 𝓜𝓔𝓝𝓤`, rowId: ".? rpg", description: "Game Epic Dinuwa Official²⁰²³ Rpg!"},
+	{title: ` ${pmenus} 𝓔𝔁𝓹 𝓜𝓔𝓝𝓤`, rowId: ".? xp", description: "Let's increase your rank!"},
+	{title: ` ${pmenus} 𝓖𝓪𝓶𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? game", description: "The game is fun (๑˃̵　ᴗ　˂̵)"},
+	{title: ` ${pmenus} 𝓕𝓾𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? fun", description: "Safe features for families"},
+	{title: ` ${pmenus} 𝓚𝓮𝓻𝓪𝓷𝓰 𝓜𝓔𝓝𝓤`, rowId: ".? kerangajaib", description: "Ask the club leader"},
+	{title: ` ${pmenus} 𝓠𝓾𝓸𝓽𝓮𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? quotes", description: "Random Inspiration"},
+	{title: ` ${pmenus} 𝓐𝓷𝓲𝓶𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? anime", description: "Find the Anime"},
+	{title: ` ${pmenus} 𝓝𝓼𝓯𝔀 𝓜𝓔𝓝𝓤`, rowId: ".? nsfw", description: "18+ only Dinuwa Official²⁰²³"},
+	{title: ` ${pmenus} 𝓟𝓻𝓮𝓶𝓲𝓾𝓶 𝓜𝓔𝓝𝓤`, rowId: ".? premium", description: "For premium users"},
+	{title: ` ${pmenus} 𝓐𝓷𝓸𝓷𝔂𝓶𝓸𝓾𝓼 𝓒𝓱𝓪𝓽𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? anonymous", description: "Talk to strangers"},
+	{title: ` ${pmenus} 𝓐𝓵-𝓠𝓾𝓻𝓪𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? quran", description: "Let\'s repent sister"},
+	{title: ` ${pmenus} 𝓘𝓷𝓽𝓮𝓻𝓷𝓮𝓽 𝓜𝓔𝓝𝓤`, rowId: ".? internet", description: "Search for something on Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓓𝓸𝔀𝓷𝓵𝓸𝓪𝓭𝓮𝓻𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? downloader", description: "Download something from the Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓢𝓽𝓲𝓴𝓮𝓻𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? stiker", description: "Create Stickers in Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓝𝓾𝓵𝓲𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? nulis", description: "Why are you lazy to write?"},
+	{title: ` ${pmenus} 𝓐𝓾𝓭𝓲𝓸 𝓜𝓔𝓝𝓤`, rowId: ".? audio", description: "Change Audio with Filters"},
+	{title: ` ${pmenus} 𝓖𝓻𝓸𝓾𝓹 𝓜𝓔𝓝𝓤`, rowId: ".? group", description: "Only Groups"},
+	{title: ` ${pmenus} 𝓐𝓭𝓶𝓲𝓷 𝓜𝓔𝓝𝓤`, rowId: ".? admin", description: "Only Admin Group"},
+	{title: ` ${pmenus} 𝓓𝓪𝓽𝓪𝓫𝓪𝓼𝓮 𝓜𝓔𝓝𝓤`, rowId: ".? database", description: "Save something on BOT"},
+	{title: ` ${pmenus} 𝓣𝓸𝓸𝓵𝓼 𝓜𝓔𝓝𝓤`, rowId: ".? tools", description: "Maybe this tool can help?"},
+	{title: ` ${pmenus} 𝓓𝓲𝓷𝓾𝔀𝓪 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵²⁰²³ 𝓘𝓷𝓯𝓸 𝓜𝓔𝓝𝓤`, rowId: ".? info", description: "Info info Dinuwa Official²⁰²³ BOT"},
+	{title: ` ${pmenus} 𝓞𝔀𝓷𝓮𝓻 𝓜𝓔𝓝𝓤`, rowId: ".? owner", description: "Owner Only!"},
+	{title: ` ${pmenus} හී හී නිකන් දැම්මේ 🤣`, rowId: ".? nocategory", description: "Uncategorized features!"},
 	]
   },
 ]
@@ -599,7 +602,7 @@ const listMessage = {
     // Gausah Dihapus, Thx
     //------------------ BUTTONDOC WITH EXTERNALADS NEW
     //---Versi 1
-      const _0xcdaec6=_0xfc88;(function(_0x121742,_0x178b98){const _0x38fd3d=_0xfc88,_0x4a08e1=_0x121742();while(!![]){try{const _0x4c2f0e=parseInt(_0x38fd3d(0x184))/0x1*(-parseInt(_0x38fd3d(0x182))/0x2)+parseInt(_0x38fd3d(0x180))/0x3*(parseInt(_0x38fd3d(0x178))/0x4)+-parseInt(_0x38fd3d(0x172))/0x5*(parseInt(_0x38fd3d(0x17d))/0x6)+parseInt(_0x38fd3d(0x175))/0x7+parseInt(_0x38fd3d(0x170))/0x8*(parseInt(_0x38fd3d(0x17f))/0x9)+parseInt(_0x38fd3d(0x183))/0xa*(-parseInt(_0x38fd3d(0x17c))/0xb)+parseInt(_0x38fd3d(0x177))/0xc;if(_0x4c2f0e===_0x178b98)break;else _0x4a08e1['push'](_0x4a08e1['shift']());}catch(_0x5a7895){_0x4a08e1['push'](_0x4a08e1['shift']());}}}(_0x1e1d,0xb6f4f));let buttonMessage={'document':{'url':sgh},'mimetype':global[_0xcdaec6(0x174)],'fileName':wm,'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'mediaType':0x1,'previewType':_0xcdaec6(0x17e),'title':global['titlebot'],'thumbnail':fs[_0xcdaec6(0x173)](_0xcdaec6(0x17a)),'renderLargerThumbnail':!![],'sourceUrl':sgh}},'caption':botdate,'footer':text[_0xcdaec6(0x171)](),'buttons':[{'buttonId':_0xcdaec6(0x181),'buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':0x1},{'buttonId':'.donasi','buttonText':{'displayText':_0xcdaec6(0x17b)},'type':0x1},{'buttonId':'.ping','buttonText':{'displayText':_0xcdaec6(0x176)},'type':0x1}],'headerType':0x6};function _0x1e1d(){const _0x440cac=['1DpiOFm','sendMessage','2096CoEGkm','trim','2129165rZblhf','readFileSync','ddocx','3582075TFXWzi','ᴘɪɴɢ','7187508hdCpab','1898140ArSHbI','chat','./thumbnail.jpg','ᴅᴏɴᴀsɪ','192181QRobng','12waBWOl','pdf','30798xkQxmC','9mzUDLL','.menu','1598014Ltrowh','590FrCHEB'];_0x1e1d=function(){return _0x440cac;};return _0x1e1d();}function _0xfc88(_0x2e3128,_0x1e767f){const _0x1e1d41=_0x1e1d();return _0xfc88=function(_0xfc884e,_0x1a1e73){_0xfc884e=_0xfc884e-0x170;let _0x163d50=_0x1e1d41[_0xfc884e];return _0x163d50;},_0xfc88(_0x2e3128,_0x1e767f);}await conn[_0xcdaec6(0x185)](m[_0xcdaec6(0x179)],buttonMessage,{'quoted':fkontak});
+      const _0xcdaec6=_0xfc88;(function(_0x121742,_0x178b98){const _0x38fd3d=_0xfc88,_0x4a08e1=_0x121742();while(!![]){try{const _0x4c2f0e=parseInt(_0x38fd3d(0x184))/0x1*(-parseInt(_0x38fd3d(0x182))/0x2)+parseInt(_0x38fd3d(0x180))/0x3*(parseInt(_0x38fd3d(0x178))/0x4)+-parseInt(_0x38fd3d(0x172))/0x5*(parseInt(_0x38fd3d(0x17d))/0x6)+parseInt(_0x38fd3d(0x175))/0x7+parseInt(_0x38fd3d(0x170))/0x8*(parseInt(_0x38fd3d(0x17f))/0x9)+parseInt(_0x38fd3d(0x183))/0xa*(-parseInt(_0x38fd3d(0x17c))/0xb)+parseInt(_0x38fd3d(0x177))/0xc;if(_0x4c2f0e===_0x178b98)break;else _0x4a08e1['push'](_0x4a08e1['shift']());}catch(_0x5a7895){_0x4a08e1['push'](_0x4a08e1['shift']());}}}(_0x1e1d,0xb6f4f));let buttonMessage={'document':{'url':sgh},'mimetype':global[_0xcdaec6(0x174)],'fileName':wm,'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'mediaType':0x1,'previewType':_0xcdaec6(0x17e),'title':global['titlebot'],'thumbnail':fs[_0xcdaec6(0x173)](_0xcdaec6(0x17a)),'renderLargerThumbnail':!![],'sourceUrl':sgh}},'caption':botdate,'footer':text[_0xcdaec6(0x171)](),'buttons':[{'buttonId':_0xcdaec6(0x181),'buttonText':{'displayText':'🇱🇰 ᴍᴇɴᴜ 🇱🇰'},'type':0x1},{'buttonId':'.donasi','buttonText':{'displayText':_0xcdaec6(0x17b)},'type':0x1},{'buttonId':'.ping','buttonText':{'displayText':_0xcdaec6(0x176)},'type':0x1}],'headerType':0x6};function _0x1e1d(){const _0x440cac=['1DpiOFm','sendMessage','2096CoEGkm','trim','2129165rZblhf','readFileSync','ddocx','3582075TFXWzi','🇱🇰 ᴘɪɴɢ 🇱🇰','7187508hdCpab','1898140ArSHbI','chat','./thumbnail.jpg','🇱🇰 ᴅᴏɴᴀsɪ 🇱🇰','192181QRobng','12waBWOl','pdf','30798xkQxmC','9mzUDLL','.menu','1598014Ltrowh','590FrCHEB'];_0x1e1d=function(){return _0x440cac;};return _0x1e1d();}function _0xfc88(_0x2e3128,_0x1e767f){const _0x1e1d41=_0x1e1d();return _0xfc88=function(_0xfc884e,_0x1a1e73){_0xfc884e=_0xfc884e-0x170;let _0x163d50=_0x1e1d41[_0xfc884e];return _0x163d50;},_0xfc88(_0x2e3128,_0x1e767f);}await conn[_0xcdaec6(0x185)](m[_0xcdaec6(0x179)],buttonMessage,{'quoted':fkontak});
     //---Versi 2
      //function _0x20c1(_0x3d1dba,_0x1a315e){const _0x1aaa67=_0x1aaa();return _0x20c1=function(_0x20c1f6,_0x54b096){_0x20c1f6=_0x20c1f6-0x1c6;let _0x4ac527=_0x1aaa67[_0x20c1f6];return _0x4ac527;},_0x20c1(_0x3d1dba,_0x1a315e);}const _0x254aec=_0x20c1;(function(_0xc90ae0,_0x2a9661){const _0x18cea6=_0x20c1,_0x2d6908=_0xc90ae0();while(!![]){try{const _0x2ba2f0=-parseInt(_0x18cea6(0x1d8))/0x1+parseInt(_0x18cea6(0x1c6))/0x2*(parseInt(_0x18cea6(0x1d3))/0x3)+-parseInt(_0x18cea6(0x1d7))/0x4*(-parseInt(_0x18cea6(0x1d1))/0x5)+parseInt(_0x18cea6(0x1da))/0x6*(parseInt(_0x18cea6(0x1db))/0x7)+parseInt(_0x18cea6(0x1d5))/0x8*(-parseInt(_0x18cea6(0x1cc))/0x9)+parseInt(_0x18cea6(0x1ca))/0xa*(-parseInt(_0x18cea6(0x1cf))/0xb)+parseInt(_0x18cea6(0x1c9))/0xc;if(_0x2ba2f0===_0x2a9661)break;else _0x2d6908['push'](_0x2d6908['shift']());}catch(_0x1f7d38){_0x2d6908['push'](_0x2d6908['shift']());}}}(_0x1aaa,0xbc66e));function _0x1aaa(){const _0x36844b=['386768jYCpaP','.ping','8723532zYlQfN','7fscaTt','912466cACkPE','readFileSync','AllMenu','5611548ebnrCK','1090xslGJh','Donasi','9ctfOjB','trim','sendMessage','69872JqHKkt','sig','4108735YfQyZP','./thumbnail.jpg','3CgyrmQ','titlebot','10789608ysbGEy','pdf','4fZdsjl'];_0x1aaa=function(){return _0x36844b;};return _0x1aaa();}let buttonMessage={'document':{'url':sgc},'mimetype':global['ddocx'],'fileName':wm,'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'mediaUrl':global[_0x254aec(0x1d0)],'mediaType':0x2,'previewType':_0x254aec(0x1d6),'title':global[_0x254aec(0x1d4)],'body':global[_0x254aec(0x1d4)],'thumbnail':fs[_0x254aec(0x1c7)](_0x254aec(0x1d2)),'sourceUrl':snh}},'caption':botdate,'footer':text[_0x254aec(0x1cd)](),'buttons':[{'buttonId':_0x254aec(0x1d9),'buttonText':{'displayText':'Ping'},'type':0x1},{'buttonId':'.?\x20all','buttonText':{'displayText':_0x254aec(0x1c8)},'type':0x1},{'buttonId':'.donasi','buttonText':{'displayText':_0x254aec(0x1cb)},'type':0x1}],'headerType':0x6};await conn[_0x254aec(0x1ce)](m['chat'],buttonMessage,{'quoted':fkontak});
 
