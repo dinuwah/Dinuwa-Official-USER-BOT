@@ -25,7 +25,7 @@
 - 💖 | **Ikratos-MD-v1 owner** 
 - 💖 | **MR Nima** 
 - 💖 | **YanXiao** 
-- 💖 | **DINETHRA **
+- 💖 | **DINETHRA**
 - 💖 | **Sahas BRO**     
 ---------
 
