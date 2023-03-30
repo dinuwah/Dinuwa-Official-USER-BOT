@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+mport fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
 ╭────═[💖Dinuwa Official²⁰²³💖]═────⋆
