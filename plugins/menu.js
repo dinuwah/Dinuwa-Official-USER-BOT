@@ -306,14 +306,15 @@ let tek = `▁ ▂ ▃ ▅ Dinuwa Official²⁰²³ ▅ ▃ ▂ ▁
 
 │ 🍿 JOIN SUPPORT GROUP : https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
 
-│🍿 *💞When deploy the bot create an issue, වට්සැප් එකෙන් contact කරපන්..  wa.me/94740804536 💞
+│🍿 *💞When deploy the bot if create an issue, වට්සැප් එකෙන් contact කරපන්..  wa.me/94740804536 💞
   
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ 💧 CREATOR: ▁ ▂ ▃ ▅ ▆  Dinuwa Official²⁰²³ ▆ ▅ ▃ ▂ ▁
 
 
-┴ 🔥 Github : https://github.com/dinuwah
+┴ 🔥 Github : 
+  🍄https://github.com/dinuwah/Dinuwa-Official-USER-BOT
 
 ❄️ SPECIAL THANKS
     TO : 
