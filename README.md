@@ -55,7 +55,7 @@
 
 ## ```HEROKU DEPLOYMENT```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinuwah/-Dinuwa-Official-)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinuwah/Dinuwa-Official-USER-BOT)
 ---------
 
 ## ```STEPS TO DEPLOY ON HEROKU```
@@ -75,7 +75,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
 ## ```USER REPLIT```
-[![Run on Repl.it](https://repl.it/badge/github/xIKRATOSx/Ikratos-MD-v1)](https://repl.it/github/xIKRATOSx/Ikratos-MD-v1)
+[![Run on Repl.it](https://repl.it/badge/github/xIKRATOSx/Ikratos-MD-v1)](https://repl.it/github/dinuwah/Dinuwa-Official-USER-BOT)
 
 ### 📮 S&K
 1. Not For Sale
