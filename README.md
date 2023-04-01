@@ -39,11 +39,11 @@
   </a> &nbsp;&nbsp;
 ---------
 
-##|    Platform      | :white_check_mark: Pros          |:x: Cons  |
-##| ----------- | ------------------ |-------|
-##| <b>Repl.it<b>   | - <b><i>Fastest Deloy.<br> - Faster than Railway / Koyeb. <br> - 24*7 work. <br> - No Crash and ##auto reboot.<br> - 100% Commands work.<b><i> | <b><i> - No Cons. Just Deploy and Have fun.<b><i>
-##| <b>Railway<b>    | - <b><i>Fast Deloy.<br> - Faster than Koyeb. <br> - 24*7 work. <br> - Auto Reboot on Crash.<br> ##- 100% Commands work.<b><i>    | <b><i> - Requires a 6 months old GitHub Account to verify.<br> - 500 hours per ##monthlyusage.<br> - Crashing Due to 500 mb limited RAM. <br> - Not suitable for newly joined users.<b><i>
-##| <b>Koyeb<b>   | - <b><i>24*7 work. <br> - Less Crash and auto reboot.<br> - 100% Commands work<b><i> | <b><i> - Now ##Credit Card required to create account.<br> - Slowest deploy ( Takes Upto 7-8 minutes ).<br> - Slowest work compared ##to Repl.it / Railway.<br> - Not suitable for newly joined users.<b><i>
+|    Platform      | :white_check_mark: Pros          |:x: Cons  |
+| ----------- | ------------------ |-------|
+| <b>Repl.it<b>   | - <b><i>Fastest Deloy.<br> - Faster than Railway / Koyeb. <br> - 24*7 work. <br> - No Crash and auto reboot.<br> - 100% Commands work.<b><i> | <b><i> - No Cons. Just Deploy and Have fun.<b><i>
+| <b>Railway<b>    | - <b><i>Fast Deloy.<br> - Faster than Koyeb. <br> - 24*7 work. <br> - Auto Reboot on Crash.<br> - 100% Commands work.<b><i>    | <b><i> - Requires a 6 months old GitHub Account to verify.<br> - 500 hours per monthlyusage.<br> - Crashing Due to 500 mb limited RAM. <br> - Not suitable for newly joined users.<b><i>
+| <b>Koyeb<b>   | - <b><i>24*7 work. <br> - Less Crash and auto reboot.<br> - 100% Commands work<b><i> | <b><i> - Now Credit Card required to create account.<br> - Slowest deploy ( Takes Upto 7-8 minutes ).<br> - Slowest work compared to Repl.it / Railway.<br> - Not suitable for newly joined users.<b><i>
 
 [![Dinuwa Official²⁰²³BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/94740804536) 
 ---------
