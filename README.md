@@ -84,6 +84,19 @@
 ## ```USER REPLIT```
 [![Run on Repl.it](https://repl.it/badge/github/xIKRATOSx/Ikratos-MD-v1)](https://repl.it/github/dinuwah/Dinuwa-Official-USER-BOT)
 
+## How to deploy in replit 
+1.First fork that repo.
+2.Go to the config js and change your bot name and number and save it.
+3.Then scan qr and upload the creds json session.
+4.After that go to your replit account and press the create button.
+5.After press the create button and touch the import from github,After that go to your fork repo and copy your fork       github link .
+6.After that wait to automatically lode to node.js and press import button
+7.Then go to the shell and type npm update and wait 4-5 minutes.
+8.Then dispaly the Dinuwa Official²⁰²³ USER BOT in the shell.
+9.Then go to the console and press run button.
+10.Wait 2 minutes to load to qr and scan it in your whatsapp account.
+11.Then copy the link of deploy replit and add to it uptimer robot site.
+
 ### 📮 හොරුන්ට අසු නොවන්න 🤣
 1. Not For Sale
 2. Don't forget give star this repo
